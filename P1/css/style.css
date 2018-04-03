@@ -1,0 +1,102 @@
+.wrapper {
+	width: 1280px;
+	margin: auto;
+}
+
+header {
+    background-color: #80a2ab;
+   	color: white;
+   	height: 95px;
+}
+
+h1 {
+	font-family: Aloha;
+	font-size: 40px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+nav {
+	text-align: right;
+	display: inline;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 25px;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+}
+
+nav, aside, section, footer {
+	font-family: "Yanone Kaffeesatz";
+}
+
+aside { 
+	width: 355px;
+	height: 501px;
+	float: left;
+	font-size: 23px;
+	line-height: 4.5;
+	background-color: #c0d8dd;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+
+a.class1:link {
+	color: white; 
+	background-color: #80a2ab; 
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px 13px 13px 13px;
+}
+			
+a.class1:hover {
+	color: white;
+	background-color: #c3bdb2;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.class2:link {
+	color: white; 
+	background-color: #c0d8dd; 
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px 13px 13px 13px;
+}
+
+a.class2:hover {
+	color: white;
+	background-color: #c3bdb2;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+article {
+	margin-left: 400px;
+	padding: 1em;
+	overflow: hidden;
+	line-height: 1.5;
+}
+
+article h2 { 
+	font-size: 35px;
+}
+
+article p {
+	font-size: 25px; 
+	word-spacing: 3px;
+}
+
+footer {
+    background-color: #80a2ab;
+    color: white;
+    height: 30px;
+}
